@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Relaxer",
+    "description": "Feel relax using a best relaxing music and breathing method",
+    "version": "1.0",
+    "icons":{"128": "images/exercise (1).png"},
+    "background":{
+        "sctipts":"./relax.js"
+    },
+    "browser_action":{
+        "default_icon": "images/exercise.png",
+        "default_popup": "./index.html"
+    },
+    "options_page": "./index.html",
+    "permissions": ["activeTab"]
+}
